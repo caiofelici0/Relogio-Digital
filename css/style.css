@@ -1,0 +1,54 @@
+/* Geral */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #424242;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Roboto, sans-serif;
+}
+
+/* Container */
+
+#container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #888888;
+  width: 800px;
+  padding: 1.5rem 4rem;
+  border-radius: 30px;
+}
+
+#container p {
+  color: #000;
+  font-size: 6rem;
+}
+
+/* Horário */
+
+#area-tempo {
+  background-color: #000;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 1.5rem;
+}
+
+#area-tempo span {
+  font-size: 5rem;
+}
+
+#area-tempo p {
+  color: #fff;
+  font-size: 1.5rem;
+}
