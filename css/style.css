@@ -42,6 +42,7 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 2rem 1.5rem;
+  width: 105px;
 }
 
 #area-tempo span {
