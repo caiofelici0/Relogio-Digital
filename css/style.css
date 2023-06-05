@@ -15,24 +15,62 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+button {
+ border: none;
+ border-radius: 15px;
+ padding: 1rem;
+ cursor: pointer;
+ background-color: #888888;
+ color: #000;
+ transition: .5s;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+#relogio.hide, #cronometro.hide {
+  display: none;
+}
+
 /* Container */
 
 #container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  background-color: #888888;
-  width: 800px;
-  padding: 1.5rem 4rem;
-  border-radius: 30px;
+  flex-direction: column;
 }
 
-#container p {
+#container-tempo {
+  background-color: #888888;
+  padding: 1.5rem 4rem;
+  border-radius: 30px;
+  margin-top: 2rem;
+}
+
+#container-tempo p {
   color: #000;
   font-size: 6rem;
 }
 
-/* Horário */
+/* Menu */
+
+#menu {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+}
+
+/* Relógio */
+
+#relogio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+}
 
 #area-tempo {
   background-color: #000;
@@ -42,6 +80,9 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 2rem 1.5rem;
+}
+
+#relogio #area-tempo {
   width: 105px;
 }
 
@@ -52,4 +93,13 @@ body {
 #area-tempo p {
   color: #fff;
   font-size: 1.5rem;
+}
+
+/* Cronômetro */
+
+#cronometro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
 }

@@ -1,3 +1,5 @@
+// Relogio
+
 setInterval(mostrarTempo, 1000);
 
 function mostrarTempo() {
@@ -17,3 +19,6 @@ function mostrarTempo() {
 }
 
 mostrarTempo();
+
+// Cronometro
+
