@@ -23,13 +23,13 @@
     <div id="container">
 
       <div id="menu">
-        <button id="relogio-btn">Rélogio</button>
+        <button id="relogio-btn" class="ativo">Rélogio</button>
         <button id="cronometro-btn">Cronômetro</button>
       </div>
 
       <div id="container-tempo">
         <div id="relogio">
-          <div id="area-tempo">
+          <div id="area-tempo" class="">
             <span id="horas"></span>
             <p>horas</p>
           </div>
@@ -44,7 +44,7 @@
             <p>segundos</p>
           </div>
         </div>
-        <div id="cronometro" class="">
+        <div id="cronometro" class="hide">
           <div id="area-tempo">
             <span id="min-cronometro">00</span>
           </div>
@@ -54,10 +54,16 @@
           </div>
           <p>:</p>
           <div id="area-tempo">
-            <span id="milisec-cronometro">000</span>
+            <span id="milisec-cronometro">00</span>
           </div>
         </div>
-        </div>
+      </div>
+
+      <div id="menu-cronometro" class="hide">
+        <button id="iniciar">Iniciar</button>
+        <button id="continuar" class="hide">Continuar</button>
+        <button id="parar">Parar</button>
+        <button id="reiniciar">Reiniciar</button>
       </div>
 
     </div>
